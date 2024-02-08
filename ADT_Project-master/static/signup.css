@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+input,
+textarea,
+select {
+    width: 140px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #999;
+    background: white;
+    border: none;
+    outline: 0.5px solid;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+#signupDiv {
+    border-radius: 4px;
+    box-shadow: 8px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+#sign-up {
+    background-image: url('/static/aboutus.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#signupDiv {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #888888;
+    background-color: #f5f5f5;
+}
+h3, h5 {
+    color: #dc3545;
+}
+.form-control:focus {
+    border-color: #dc3545;
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
